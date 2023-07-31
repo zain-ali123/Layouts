@@ -13,12 +13,12 @@
                         </div>
                     </v-col>
 
-                    <!-- Second column -->
+                    
                     <v-col cols="6">
-                        <div class="column-content">
-                            <img :src="imageUrl" alt="Image" 
-                            :height="601"
-                            :width="643"
+                        <div 
+                        style="height: 601; width: 643;">
+                            <img class="image"  :src="imageUrl" alt="Image" 
+
                              />
                         </div>
                     </v-col>
@@ -57,6 +57,11 @@ export default {
     font-family: Apercu,sans-serif;
    
     margin-top :30%; ;
+}
+.image{
+    height: auto;
+    width: auto;
+    /* object-fit: contain; */
 }
 </style>
 

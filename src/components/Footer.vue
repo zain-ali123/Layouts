@@ -1,26 +1,11 @@
-<!-- <template>
-    <v-toolbar style="background-color: black; color: white;">
-        <v-row>
-            <v-col>
-                
-                
 
-            </v-col>
-        </v-row>
-    </v-toolbar>
-</template>
-<script>
-export default {
-    name:'FooterBar'
-    }
-</script> -->
 
 
 <template>
     <div class="footer" style="background-color: black; color: white;">
          <v-container  >
             <v-row>
-                <!-- First column (1/6 width) -->
+                
                 <v-col cols="2">
                     <v-row>
                              <img src="https://shop.hangframing.com/packs/media/images/logo-white-a06cc5f9d7c5151e4f81c160997f48f4.svg" 
