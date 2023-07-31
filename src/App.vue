@@ -3,9 +3,26 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav> -->
+  <Navbar/>
   <router-view/>
-</template>
+  <Footer/>
+  <FooterWhite/>
 
+</template>
+<script>
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+import FooterWhite from "./components/FooterWhite.vue";
+export default {
+  components: {
+    Navbar,
+    Footer,
+    FooterWhite,
+      
+    }
+  }
+
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
